@@ -28,6 +28,7 @@
   </div>
   <div class="islandora-video-metadata">
     <?php print $description; ?>
+    <h4><?php print l(t('View the MODS record'), "islandora/object/{$object}/datastream/MODS/view"); ?></h4>
     <?php if ($parent_collections): ?>
       <div>
         <h2><?php print t('In collections'); ?></h2>
