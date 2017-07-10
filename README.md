@@ -14,7 +14,7 @@ This module requires the following modules/libraries:
 * [Tuque](https://github.com/islandora/tuque)
 * FFmpeg - Compliation guides: [Ubuntu](https://ffmpeg.org/trac/ffmpeg/wiki/UbuntuCompilationGuide
 ), [CentOS](http://ffmpeg.org/trac/ffmpeg/wiki/CentosCompilationGuide).
-* ffmpeg2theora (optional) - [Instructions](https://wiki.duraspace.org/display/ISLANDORA714/Chapter+12+-+Installing+Solution+Pack+Dependencies)
+* [ffmpeg2theora](http://v2v.cc/~j/ffmpeg2theora/) (optional)
 
 FFmpeg version 1.1.4 has been tested. It can be downloaded [here](http://www.ffmpeg.org/releases/ffmpeg-1.1.4.tar.gz)
 
@@ -26,9 +26,13 @@ Install as usual, see [this](https://drupal.org/documentation/install/modules-th
 
 ## Configuration
 
-Set the path for `ffmpeg`, select configuration options and viewer in Administration » Islandora » Video Solution Pack (admin/islandora/video).
+Set the path for `ffmpeg`, select configuration options and viewer in Administration » Islandora » Solution Pack Configuration » Video Solution Pack (admin/islandora/solution_pack_config/video).
 
-![Configuration](https://raw.githubusercontent.com/wiki/Islandora/islandora_solution_pack_video/images/islandora_video_config.png)
+![Configuration](https://cloud.githubusercontent.com/assets/1943338/19574828/4ff6559e-96e2-11e6-9453-6cb4fb019245.png)
+
+## Documentation
+
+Further documentation for this module is available at [our wiki](https://wiki.duraspace.org/display/ISLANDORA/Video+Solution+Pack).
 
 ## Troubleshooting/Issues
 
@@ -41,11 +45,11 @@ Having problems or solved a problem? Check out the Islandora google groups for a
 ## Maintainers/Sponsors
 Current maintainers:
 
-* [Nick Ruest](https://github.com/ruebot)
+* [Rosie Le Faive](https://github.com/rosiel)
 
 ## Development
 
-If you would like to contribute to this module, please check out our helpful [Documentation for Developers](https://github.com/Islandora/islandora/wiki#wiki-documentation-for-developers) info, as well as our [Developers](http://islandora.ca/developers) section on the Islandora.ca site.
+If you would like to contribute to this module, please check out [CONTRIBUTING.md](CONTRIBUTING.md). In addition, we have helpful [Documentation for Developers](https://github.com/Islandora/islandora/wiki#wiki-documentation-for-developers) info, as well as our [Developers](http://islandora.ca/developers) section on the [Islandora.ca](http://islandora.ca) site.
 
 The Video Solution Pack includes an ingest/purge load test that is disabled and unusable by default. This particular solution pack was chosen for load testing due to the resource-heavy process of creating video derivatives and ingesting several potentially-massive files. To enable and use it:
 
